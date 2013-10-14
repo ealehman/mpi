@@ -1,0 +1,33 @@
+MPI
+===
+Various applications of MPI. Written for a problem set in Computer Science 205
+at Harvard School of Engineering and Applied Sciences.
+
+	dot_sum: 
+		- uses broadcast and reduce to compute a product sum of two
+		  vectors
+		- serial version provided by cs205 course staff
+	tomography: 
+		- produces an x-ray image from the series of attenuation curves
+                  in a tomographic projection
+		- 3 implementations:
+			1. send/recv 
+			2. scatter/reduce 
+			3. serial (provided by cs205 course staff)
+	mandelbrot:
+		- computes a mandelbrot set
+		- 3 implementations:
+			1. scatter/gather
+			2. master/slave
+			3. serial (provided by cs205 course staff)
+
+Author
+======
+Alex Lehman
+Harvard University
+ellelehman@college.harvard.edu
+
+serial code provided by course staff
+(see attached problem set specification)
+
+
