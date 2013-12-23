@@ -20,21 +20,6 @@ at Harvard School of Engineering and Applied Sciences.
 			1. scatter/gather
 			2. master/slave
 			3. serial (provided by cs205 course staff)
-	wave_model:
-		- models the 2D wave equation as it transforms over time
-		- applies domain decomposition
-		- first implementation uses MPI function sendrecv, second
-		  uses isend and irecv
-		- Serial version provided by course staff included
-		- see specification in wave_model folder
 
-Author
-======
-Alex Lehman
-Harvard University
-ellelehman@college.harvard.edu
-
-serial code provided by course staff
-(see attached problem set specification)
 
 
